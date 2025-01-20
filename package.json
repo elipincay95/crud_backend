@@ -1,0 +1,17 @@
+{
+  "name": "crud-service",
+  "version": "1.0.0",
+  "description": "Backend Gestion Contactos",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "test-app",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Richard",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql": "github:mysqljs/mysql",
+    "nodemon": "^3.1.9"
+  }
+}
